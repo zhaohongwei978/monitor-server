@@ -1,0 +1,33 @@
+{
+  "name": "monitor-server",
+  "version": "1.0.0",
+  "description": "性能监控平台服务端",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaohongwei978/monitor-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhaohongwei978/monitor-server/issues"
+  },
+  "homepage": "https://github.com/zhaohongwei978/monitor-server#readme",
+  "dependencies": {
+    "co-mysql": "^1.0.0",
+    "crypto": "^1.0.1",
+    "koa": "^2.13.1",
+    "koa-better-body": "^3.3.9",
+    "koa-convert": "^1.2.0",
+    "koa-router": "^10.0.0",
+    "log4js": "^6.3.0",
+    "md5": "^2.3.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "uuid": "^8.3.2"
+  }
+}
