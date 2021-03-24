@@ -1,6 +1,6 @@
 const crypto = require('crypto');
 //密码前缀
-const ADMIN_PREFIX = '_?:L$"OPUIOSIFJ(*UPT:LKRFG'
+const MD5_SALT = 'CPUIOSCPUIOSCPUIOS'
 
 function md5(str){
     const hash  = crypto.createHash('md5')
@@ -29,7 +29,7 @@ function isNull(str){
 }
 
 module.exports = {
-    ADMIN_PREFIX,
+    MD5_SALT,
     md5,
     isNull
 }
